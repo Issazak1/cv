@@ -1,0 +1,173 @@
+body{
+	background:rgba(255, 255, 255, 0.363);
+	margin:0;
+	padding:0;
+}
+nav{
+	width:100%;
+	height:60px;
+	background:rgba(255, 255, 255, 0.363);
+	border-bottom:2px solid black;
+	text-align:right;
+}
+nav li{
+	display:inline-block;
+	margin-right:30px;
+	line-height:43pt;
+}
+nav li a{
+	font-family:Tahoma;
+	font-size:18pt;
+	color:black;
+	text-decoration:none;
+}
+#home{
+	width:100%;
+	height:600px;
+	background:rgba(255, 255, 255, 0.507);
+	padding-top:100px;
+}
+.backhome{
+	width:70%;
+	height:400px;
+	background:#3f5a6b;
+	margin:auto;
+	text-align:center;
+}
+#home h1, #home h2, #home h3{
+	color:white;
+	font-family:Tahoma;
+}
+.backhome img{
+	width:200px;
+	height:200px;
+	background:white;
+	border-radius:100%;
+	margin-top:25px;
+}
+#about{
+	width:100%;
+	height:500px;
+	background:#3f5a6b;
+}
+.about-left{
+	width:50%;
+	height:500px;
+	background:red url(lumiere.jpg) no-repeat center center;
+	background-size:cover;
+}
+
+.about-right{
+	width:50%;
+	height:500px;
+	/* background:green; */
+	padding:50px 20px;
+}
+.about-left, .about-right{
+	display:table-cell;
+}
+.about-right h2{
+	font-family:tahoma;
+	color: white;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.about-right p{
+	font-size:16pt;
+	color: white;
+	line-height:14pt;
+	font-style:italic;
+}
+#works{
+	width:100%;
+	height:600px;
+	background:white;
+	text-align: center;
+}
+.container{
+	width:70%;
+	height:600px;
+	/* background:purple; */
+	margin:auto;
+}
+.col{
+	width:300px;
+	height:600px;
+	/* background:white; */
+	display:inline-block;
+	margin:auto;
+	
+}
+.col img{
+	width:200px;
+	height:200px;
+	border-radius:100%;
+	display:block;
+	margin:auto;
+}
+.col h3{
+	text-align:center;
+}
+.col p{
+	/* text-align:justify; */
+	text-align:center;
+}
+
+.col:hover{
+	background:#3f5a6b;
+}
+.col:hover h3{
+	color:white;
+}
+.col:hover p{
+	color:white;
+}
+
+#contact{
+	width:100%;
+	height:200px;
+	background:#3f5a6b;
+}
+.wrapper{
+	width:70%;
+	height:100px;
+	/* background:pink; */
+	margin:auto;
+	text-align:center;
+	padding-top:25px;
+}
+.wrapper li{
+	display:inline-block;
+	margin-right:50px;
+}
+.wrapper li a{
+	color:white;
+}
+.wrapper li a:hover{
+	color:black;
+}
+
+#contact p{
+	text-align:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
