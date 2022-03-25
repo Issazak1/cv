@@ -52,14 +52,14 @@ nav li a{
 }
 .about-left{
 	width:50%;
-	height:500px;
+	height:800px;
 	background:red url(lumiere.jpg) no-repeat center center;
 	background-size:cover;
 }
 
 .about-right{
 	width:50%;
-	height:500px;
+	height:800px;
 	/* background:green; */
 	padding:50px 20px;
 }
@@ -168,38 +168,6 @@ nav li a{
 	text-align:center;
 }
 }
-
-.footer-bottom{
-    background: #000;
-    width: 100vw;
-    padding: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-.footer-bottom p{
-	float: left;
-	font-size: 18px;
-	word-spacing: 2px;
-	text-transform: capitalize;
-	color: aliceblue;
- }
- .footer-bottom p a{
-   color:#44bae8;
-   font-size: 16px;
-   text-decoration: none;
- }
- 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
